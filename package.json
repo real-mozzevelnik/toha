@@ -1,0 +1,42 @@
+{
+  "name": "taskhelper",
+  "version": "1.0.0",
+  "description": "TaskHelper",
+  "main": "app.js",
+  "engines": {
+    "node": "16.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendisagala/TaskHelper-App.git"
+  },
+  "author": "rendisagala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rendisagala/TaskHelper-App/issues"
+  },
+  "proxy": "http://localhost:3000",
+  "homepage": "https://github.com/rendisagala/TaskHelper-App#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "heroku-ssl-redirect": "^0.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
